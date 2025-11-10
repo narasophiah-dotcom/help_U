@@ -1,0 +1,164 @@
+section:not(.section_1){
+
+    padding: 100px 200px;
+    margin: 0 auto;
+
+}
+
+a{
+    
+    color: #101010;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a svg{
+
+    margin:0 5px;
+
+}
+
+h2,p,h3{
+
+   letter-spacing: -1px;
+    margin-bottom: 10px;
+}
+
+a{
+
+     letter-spacing: -1px;
+}
+
+h2{
+
+    font-weight: 700;
+    font-size: 60px;
+    
+
+}
+
+h3{
+
+    font-weight: 700;
+    font-size: 34px;
+}
+
+
+p{
+
+    color: rgba(10, 10, 10, 0.5);
+    font-weight: 400;
+    font-size: 18px;
+   
+}
+
+.title_wrap{
+
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+
+
+
+
+/* header 작업 ---------------------------- */
+
+header{
+
+     padding: 20px;
+     height: 70px;
+     width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+
+
+}
+
+.menu_wrap{
+
+   
+    width: 454px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* header 작업 끝 ---------------------------- */
+
+.con{
+
+    padding: 10px;
+}
+
+.con_wrap{
+
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+
+
+
+/* 버튼-------- */
+
+.butten{
+
+    width: 113px;
+    height: 39px;
+   
+    
+   
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    background-color: #FAFAFA;
+    border: solid 1px #EEEEEE ;
+    border-radius: 20px;
+    
+    
+}
+
+.butten a{
+
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: rgba(10, 10, 10, 0.5);
+
+
+}
+
+.but_2{
+
+    width: 150px;
+    height: 45px;
+    background-color: #2A969D;
+
+    border:    none;
+}
+
+.but_2 a{
+
+
+  
+    color: #FAFAFA;
+
+}
+
+  
+

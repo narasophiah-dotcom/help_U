@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help_U</title>
+
+    <link rel="stylesheet" href="css\reset.css">
+    
+    <link rel="stylesheet" href="css\common.css">
+    <link rel="stylesheet" href="css\style.css">
+    
+    <script src="jquery-3.7.1.min.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <style>    
+        
+        .noto-sans-kr-uniquifier{
+
+        font-family: "Noto Sans KR", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+
+        }
+
+
+        .top{
+
+             top: 90px;
+        }
+
+    </style>
+
+    <script src="https://use.fontawesome.com/releases/v7.0.0/js/all.js"></script>
+
+    <script>
+
+        $(document).ready(function(){
+
+             $(window).scroll(function(){
+
+                var pageY = $(window).scrollTop();
+            
+                console.log(pageY)
+
+                var sec_4_top = $('.section_4').offset().top;
+                console.log('섹션 4의 top 값: ' + sec_4_top);
+
+                 var sec_2_top = $('.section_2').offset().top;
+                console.log('섹션 2의 top 값: ' + sec_2_top);
+
+                
+                if(pageY < 400){
+
+                    $('.section_2').css({
+                       
+                            opacity: 0,
+
+                    });
+
+                };
+                
+                    
+                if(pageY >  sec_2_top / 2){
+
+                    $('.section_2').css({
+                       
+                            opacity: 1,
+
+                    });
+
+                };
+                
+
+
+                if(pageY < 2200 ){
+
+                    $('.con_4_2').removeClass('top');
+
+                };
+
+                if( pageY >  2200  ){
+
+                    $('.con_4_2').addClass('top');
+                };
+
+                if(pageY < 2200){
+
+                    $('.con_4_4').removeClass('top');
+
+                };
+
+                if( pageY >  2200  ){
+
+                    $('.con_4_4').addClass('top');
+                };
+
+
+            });
+
+        });
+
+    </script>
+
+</head>
+
+
+<body>
+
+    <div class="wrap">
+
+        <header>
+
+            <div class="logo">
+                
+                <img src="img\helpu-logo-pc.png" alt="helpU_logo">
+
+            </div>
+
+            <ul class="menu_wrap">
+
+                <li>
+                    <a href="#">
+                        정보 
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                </li>
+
+                 <li>
+                    <a href="#">
+                        소개
+                         <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                </li>
+
+                 <li>
+                    <a href="#">
+                        이용방법
+                         <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                </li>
+
+                 <li>
+                    <a href="#">
+                        제품가격
+                         <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                </li>
+                
+            </ul>
+
+            <ul class="menu_wrap sub">
+
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-headset"></i>
+                        고객센터
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                        로그인
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-globe"></i>
+                        한국어
+                    </a>
+                </li>
+
+            </ul>
+
+        </header>
+
+         <!-- header END -------------------------------------------------------- -->
+
+        <section class="section_1">
+
+            <div class="bg_img"></div>
+
+            <div class="bluk"></div>
+
+                <div class="title_wrap tiw_1">
+                    <p>합리적인 가격과 고품격 원격지원 서비스의 만남</p>
+                    <h2>온라인 원격 업무 지원 서비스 help U</h2>
+
+                     <div class="butten but_2">
+                        <a href="#">신청하기</a>
+                    </div>
+                </div>
+
+        </section>
+
+         <!-- section_1 END -------------------------------------------------------- -->
+
+        <section class="section_2">
+
+            <div class="con_wrap_2">
+
+                <div class="con_2">
+
+                    <div class="img_wrap">
+
+                        <img src="img\chaegsang-eseo-jangchileul-gajin-donglyo.jpg" 
+                        alt="컴퓨터 보면서 회의하는 이미지">
+
+                    </div>
+
+                </div>
+
+                <div class="con_2">
+
+                    <div cless= "title_wrap tiw_2">
+
+                        <p>
+                            원격지에 있는 상담원이 고객의 컴퓨터에 접속  
+                        </p>
+                        
+                        <p class="tiw_2_p">
+                            고객의 PC화면을 상담원과 상황을 공유하며 문제 해결
+                        </p>
+
+                        <a href="#">
+
+                            <div class="butten">
+                            
+                                <a href="#">
+                                    더보기
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </a>
+
+                            </div>
+
+                        </a> 
+
+                    </div>
+
+                <!-- -- -->
+
+                    <div cless= "title_wrap tiw_2">
+
+                        <h2 class="tiw_2_h2">
+                            온라인 원격 제어 기술
+                        </h2>
+
+                        <p class=" grin">
+                            헬프 유 시스템의 특징
+                        </p>
+                    
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </section>
+
+        <!-- section_2 END -------------------------------------------------------- -->
+
+        <section class="section_3">
+
+             <!-- -- -->
+
+            <div class="title_wrap tiw_3">
+
+                <p>초기 세팅 및 추가비용 무료</p>
+                <h2>무제한 지원, 무료 업데이트, 부담없는 가격</h2>
+
+            </div>
+
+             <!-- -- -->
+
+            <div class="con_wrap con_wrap_3">
+
+                <div class="con con_3">
+
+                    <div class="con_in_wrap">
+
+                        <div class="title_wrap tiw_3_2">
+
+                            <h3>무료체험</h3>
+
+                            <p>
+                                3개월무료체험 이휴 유료결게
+                            </p>
+
+                            <p>  
+                                상담원 아이디 1개
+                            </p>
+
+                        </div>
+
+                        <a href="#">
+
+                                <div class="butten but_2">
+                                    <a href="#">신청하기</a>
+                                </div>
+
+                        </a> 
+
+                   </div>
+
+                </div>
+
+                <!-- ------------------------------- -->
+
+                <div class="con con_3">
+
+                    <div class="con_in_wrap">
+                        
+                        <div class="title_wrap tiw_3_2">
+                            
+
+                            <h3>월 29,000원</h3>
+
+                            <p>
+                                3부담없는 가격, 월 결제
+                            </p>  
+
+                            <p>
+                                상담원 아이디 1+2
+                            </p>
+
+                        </div>
+
+                        <a href="#">
+
+                                <div class="butten but_2">
+                                    <a href="#">신청하기</a>
+                                </div>
+                                
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- --------------------------------------- -->
+
+                <div class="con con_3">
+
+                    <div class="con_in_wrap">
+
+                        <div class="title_wrap tiw_3_2">
+
+                            <h3>무료체험</h3>
+
+                            <p>
+                                부담없는 가격, 월 결제
+                            </p>
+                            
+                            <p>
+                                상담원 아이디 1+2
+                                <br><br>
+                                1개월 추가 제공
+                            </p>
+
+                        </div>
+
+                        <a href="#">
+
+                            <div class="butten but_2">
+                                <a href="#">신청하기</a>
+                            </div>
+                            
+                        </a> 
+                    
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- -- -->
+
+        </section>
+
+        <!-- section_3 END -------------------------------------------------------- -->
+
+         <section class="section_4">
+
+            <div class="titelr_wrap tiw_4 ">
+
+                <h2>헬프유 레퍼런스</h2>
+
+                <p>help U를 믿고 이용해주시는 주요 고객사 목록입니다</p>
+           
+            </div>
+
+            <div class="con_wrap con_wrap_4">
+
+                <div class="con_4 con_4_1">
+
+                    <div class="img_wrap img_wrap_4">
+
+                        <img src="img\001.png" alt="삼성 로고" class="img_4_1">
+
+                        <h3>삼성</h3>
+
+                    </div>
+
+                    <p>삼성 SDS, 삼성 디스플레이, 삼성 물산 등 다양한 기업체에서 보장된 서비스와 안정적인 보안 유지</p>
+
+                    <a href="#">
+
+                        <div class="butten but_1">
+                        
+                            <a href="#">
+                                더보기
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </a>
+
+                        </div>
+
+                    </a> 
+
+
+                </div>
+
+                <!-- 삼성--------------------------- -->
+
+                 <div class="con_4 con_4_2">
+
+                    <div class="img_wrap img_wrap_4">
+
+                        <img src="img\004.png" alt="LG 로고"  class="img_4_2">
+
+                        <h3>Lg</h3>
+
+                    </div>
+
+                    <p>안드로이드 기반 서버와 안드로이드 기반 프로그램을 가지고 있어 오랫동안 협력 관계를 유지</p>
+
+                    <a href="#">
+
+                        <div class="butten but_1">
+                        
+                            <a href="#">
+                                더보기
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </a>
+
+                        </div>
+
+                    </a> 
+
+
+                </div>
+
+                <!-- LG--------------------------- -->
+
+                 <div class="con_4 con_4_3">
+
+                    <div class="img_wrap img_wrap_4">
+
+                        <img src="img\005.png" alt="현대 백회점 로고" class="img_4_3">
+
+                        <h3>현대 백화점</h3>
+
+                    </div>
+
+                    <p>26년이라는 시간동안 저희 헬프 유 서비스를 지원해주신 단골 고객님</p>
+
+                    <a href="#">
+
+                        <div class="butten but_1">
+                        
+                             <a href="#">
+                                더보기
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </a>
+
+                        </div>
+
+                    </a> 
+
+                </div>
+
+                <!-- 현대 백화점 --------------------------- -->
+
+                <div class="con_4 con_4_4">
+
+                    <div class="img_wrap img_wrap_4">
+
+                        <img src="img\008.png" alt="Kt 로고" class="img_4_4">
+
+                        <h3>SK 텔레콤</h3>
+
+                    </div>
+
+                    <p>서버로 고객과 상담사가 연결. 상담 및 원격 지원 서비스 무상 지원</p>
+
+                    <a href="#">
+
+                        <div class="butten but_1">
+                        
+                             <a href="#">
+                                더보기
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </a>
+
+                        </div>
+
+                    </a> 
+
+                </div>
+
+                <!-- SK 텔레콤--------------------------- -->
+
+            </div>
+
+         </section>      
+
+        <!-- under ------------------------------------------------------------ -->
+
+        <div class=" con_wrap under">
+
+            <div class="tiw_5">
+
+              
+            
+                <p>
+                    대표자: 조연호 | 사업자번호 : 113-86-52356 | 통신판매번호 : 2012-서울구로-0104호 | 이메일 : helpu@helpu.co.kr <br>
+                    (주)헬프유 서울특별시 금천구 가산디지털2로 135, 519호 (가산동, 가산어반워크1)
+                </p>
+
+
+            </div>
+
+            <div class=" tiw_5 tiw_5_2">
+
+                <p>
+
+                    대표전화 : 02-3665-8744 <br>
+                    고객센터 : 02-3665-8744 <br>
+                    고객 접속 페이지 (367.co.kr) <br>
+                    계좌정보 : 산업은행 140-009-915760
+
+                </p>
+
+            
+                <p>
+
+                    이용약관
+                    <br><br>
+                    개인정보 취급 방식
+
+                </p>
+
+
+
+               <p> © 2025. Nara Her All rights reserved </p>
+
+            </div>
+
+        </div>
+
+      
+    </div>
+
+</body>
+</html>

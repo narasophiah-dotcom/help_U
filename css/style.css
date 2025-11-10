@@ -1,0 +1,526 @@
+
+/* header 작업 ---------------------------- */
+
+.logo{
+
+    height: 30px;
+    width: 240px;
+}
+
+.sub{
+
+    width: 330px;
+} 
+
+/* header 작업 끝 ---------------------------- */
+
+/* section_1 작업 ---------------------------------- */
+
+.section_1{
+
+    width: 100%;
+    height:770px;
+
+     position: relative;
+     /* background-color: rgba(00,00,00,0.5); */
+}
+
+.bg_img{
+
+    width: 100%;
+    height: 100%;
+
+   background-image: url(https://img.freepik.com/free-photo/corporate-business-handshake-partners_53876-102581.jpg?t=st=1753661019~exp=1753664619~hmac=52e76e7068a7892bf934bfdb67f0e4a67255a3131af9d788eb3187e2ee97e652&amp;);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+
+    transform: rotateY(180deg);
+
+}
+
+.bluk{
+
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(00,00,00,0.2);
+    z-index: 9;
+
+}
+
+.tiw_1{
+
+    color: #FAFAFA;
+
+    position: absolute;
+    top: 50%;
+    left:10%;
+
+    transform: translate(0,-50%);
+
+    z-index: 10;
+}
+
+.tiw_1 p{
+
+    margin-bottom: 21px;
+     color: #FAFAFA;
+}
+
+.tiw_1 h2{
+
+    margin-bottom: 40px;
+ }
+
+/* section_1 작업 끝 ---------------------------------- */
+
+/* section_2 작업 ---------------------------------- */
+
+.section_2{
+
+    width:100%;
+    height: 900px;
+
+    display: flex;
+
+     transition: 0.5s;
+    
+}
+
+
+.con_wrap_2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.con_2{
+
+    width: 50%;
+   margin: 0 10px;
+}
+
+
+.con_2 img{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.con_2:first-child{
+
+    padding: 0;
+    border-radius: 20px ;
+    /* background-color: aqua; */
+
+    overflow: hidden;
+    
+}
+
+.con_2:last-child{
+
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.tiw_2_p {
+
+    color: rgba(10, 10, 10, 0.5);
+    margin-bottom: 30px;
+
+}
+
+.tiw_2_h2{
+
+    margin-bottom: 43px;
+
+}
+
+ .grin{
+
+    color:#2A969D;
+    opacity: 0.5;
+}
+
+/* section_2 작업 끝 -------------------------------------------- */
+/* section_3 작업 -------------------------------------------- */
+
+.section_3{
+
+    width: 100%;
+    height: 850px;
+    background-color: #2A969D;
+}
+
+.con_3{
+
+    height: 500px;
+    width: 490px;
+
+    background-color: #FAFAFA;
+    display: flex;
+
+}
+
+.con_wrap_3{
+
+    width: 100%;
+  
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.con_in_wrap{
+
+    width: 100%;
+    height: 314px;
+    padding:    0;
+
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.con_3{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    border-radius: 20px;
+
+    padding: 40px 24px ;
+    margin: 0 10px;
+    
+}
+
+.tiw_3{
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.tiw_3_2{
+
+    height: 184px;
+    margin: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+    
+
+}
+
+
+.tiw_3 h2{
+
+    font-size: 34px;
+    color: #FAFAFA;
+
+    margin-bottom: 67px;
+}
+
+.tiw_3 p{
+
+     color: #FAFAFA;
+     margin-bottom: 15px;
+
+}
+
+.tiw_3_2 p{
+
+    margin: 0;
+    /* font-weight: 400; */
+    color: #101010;
+
+}
+
+
+
+/* .tiw_3_2 :last-child{
+
+    margin-bottom: 155px;
+} */
+
+
+/* section_4 작업 -------------------------------------------- */
+
+.section_4{
+
+    width: 100%;
+    height: 800px;
+
+    padding: 0 200px;
+
+    display: flex;
+    align-items:start;
+    justify-content: center;
+
+    flex-direction: column;
+
+}
+
+.section_4 h2{
+
+    font-size: 34px;
+    color: #2A969D;
+}
+
+.section_4 p{
+
+    font-size: 25px;
+    color: #101010;
+    /* font-weight: 400; */
+}
+
+.tiw_4{
+
+    margin-bottom: 78px;
+}
+
+.con_wrap_4{
+
+    padding: 0;
+
+    width: 100%;
+    height: 374px;
+
+    position: relative;
+
+
+}
+
+.con_4{
+    
+    
+    padding: 24px;
+
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+
+    margin: 0 7px;
+    
+    border: #EEEEEE solid 3px;
+
+    position: absolute;
+    top: 147px;
+    left: 0;
+
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    flex-direction: column;
+
+     transform: translateY(-23.5%);
+
+
+}
+
+.con_4 p {
+
+   color: rgba(10, 10, 10, 0.5);
+}
+
+.img_wrap_4 h3{
+
+    color: rgba(10, 10, 10, 0.5);
+}
+
+
+
+.con_4_1{
+
+    left: 0;
+
+}
+
+
+.con_4_2{
+
+     left: 370px;
+     /* top: 90px; */
+
+    
+
+}
+
+
+.con_4_3{
+
+    left: 740px;
+}
+
+
+.con_4_4{
+
+    left: 1110px;
+     /* top: 90px; */
+
+     
+
+}
+
+.con_4_4, .con_4_2{
+
+     transition-duration: 0.5s;
+     transition-timing-function: cubic-bezier(1, -0.01, 0.38, 0.96) ;
+}
+
+
+.top{
+
+    top: 90px;
+}
+ 
+
+
+.img_wrap_4{
+
+    width: 100%;
+    height: 70px;
+
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.con_4 h3{
+
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+
+
+}
+
+.con_4 p{
+
+    font-size: 16px;
+}
+
+.img_4_1{
+
+    width: 170px;
+    height: 60px;
+
+}
+
+.img_4_2{
+
+    width: 170px;
+    height: 60px;
+
+}
+
+.img_4_3{
+
+    width: 135px;
+    height: 40px;
+
+    
+}
+
+.img_4_4{
+
+    width: 100px;
+    height: 40px;
+
+}
+
+/* -------------------------------------------------- */
+
+
+.under{
+
+    height: 383px;
+    padding:   60px 200px 77px 200px;
+
+    font-size: 18px;
+
+
+    background-color: #2A969D;
+
+     display: flex;
+    align-items: start;
+    justify-content: space-between;
+
+    flex-direction: column;
+
+
+}
+
+.under p{
+
+    
+     color: #FAFAFA;
+     margin: 0;
+
+     font-weight: 300;
+
+
+}
+
+
+.tiw_5{
+
+    /* height: 50%; */
+    width:100%;
+    display: flex;
+    align-items: start; 
+    justify-content: space-between;
+
+    /* flex-direction: column; */
+
+    
+}
+
+.tiw_5_2{
+
+    display: flex;
+    align-items: end;
+    text-align: center;
+   
+}
+
+.tiw_5 p{
+
+    line-height: 26px;
+    
+    letter-spacing: -1px;
+
+}
+
+.tiw_5_2 p:first-child{
+
+     text-align: start;
+
+     line-height: 26px;
+  
+}
