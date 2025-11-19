@@ -7,7 +7,6 @@ a {
   color: #101010;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 a svg {
@@ -16,13 +15,10 @@ a svg {
 
 h2,
 p,
-h3 {
-  letter-spacing: -1px;
-  margin-bottom: 10px;
-}
-
+h3,
 a {
-  letter-spacing: -1px;
+  letter-spacing: -0.1em;
+  line-height: 1.5em;
 }
 
 h2 {
