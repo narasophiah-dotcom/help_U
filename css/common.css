@@ -100,6 +100,11 @@ header {
   color: rgba(10, 10, 10, 0.5);
 }
 
+.butten a svg{
+
+  opacity: 0.5;
+}
+
 .but_2 {
   width: 150px;
   height: 45px;
